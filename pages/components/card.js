@@ -15,21 +15,21 @@ const imageCards = [
       desc: ' A React app that uses the UseContext and UseReducer hooks to implement the lightmode/darkmode feaure while toggling between two sets of cards that correspond to the mode you are currently in. All cards are custom made using MidJourney AI ',
       image: tarot,
       url: 'https://react-tarot.vercel.app',
-      code: 'https://github.com/water-my-plantz',
+      code: 'https://github.com/WrongAlice/react-tarot',
   },
   {
     title: 'To-Do List',
     desc: ' A React app where you can add + remove to-dos using local storage to persist the data',
     image: todo,
     url: 'https://big-to-do.vercel.app',
-    code: 'https://github.com/water-my-plantz',
+    code: 'https://github.com/WrongAlice/big-to-do',
 },
 {
   title: 'Full Stack CRUD App',
   desc: ' A React app front end and a Node.js back end that allows you to create, read, update, and delete bugs from a SQL database',
   image: bugs,
   url: 'https://fe-lilac.vercel.app',
-  code: 'https://github.com/water-my-plantz',
+  code: 'https://github.com/WrongAlice/b3fe',
 }
 
 ]
