@@ -3,22 +3,25 @@
 }
 
 .main {
-  min-height: 100vh;
+  min-height: 75vh;
   padding: 4rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
 
 .footer {
   display: flex;
   flex: 1;
   padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
+  border-top: 1px solid lightgrey;
   justify-content: center;
   align-items: center;
+  color: rgb(174, 136, 168);
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .footer a {
@@ -50,6 +53,9 @@
   text-align: center;
 }
 
+.logo {
+  color:black;
+}
 .description {
   margin: 4rem 0;
   line-height: 1.5;
@@ -65,48 +71,7 @@
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
-}
 
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
-}
-
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
-}
-
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-}
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
-}
 
 @media (max-width: 600px) {
   .grid {
@@ -117,13 +82,94 @@
 
 @media (prefers-color-scheme: dark) {
   .card,
-  .footer {
-    border-color: #222;
-  }
+  
   .code {
     background: #111;
   }
   .logo img {
-    filter: invert(1);
+    filter: invert(0);
+    padding:2px;
   }
 }
+
+.navcont {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.nav{
+  display: inline-block;
+  padding: 10px;
+  font-size: 1em;
+  color: rgb(174, 136, 168);
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 10px;
+  font-family: 'Zen Loop', cursive;
+  font-size: 2em;
+ 
+}
+
+.btn {
+  position: relative;
+  height: 60px;
+  width: 250px;
+  transform-style: preserve-3d;
+  transition: transform 300ms ease-in-out;
+  transform: translateZ(-75px);
+}
+
+.btn:hover {
+  transform: rotateX(-90deg) translateY(35px);
+}
+
+
+.default{
+  background-color: rgb(232, 191, 226);
+  border: 2px solid rgb(238, 240, 242);
+  border-radius:5px;
+  color: rgb(6, 5, 7);
+  transform: translateZ(25px);
+  position: absolute;
+  backface-visibility: hidden;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: .7em;
+  font-weight: bold;
+}
+
+.hover{
+  color: rgb(244, 245, 239);
+  border: 2px solid rgb(230, 232, 233);
+  border-radius:5px;
+  background-color: rgb(91, 68, 100);
+  transform: rotateX(90deg) translateZ(35px);
+  position: absolute;
+  backface-visibility: hidden;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: .7em;
+  font-weight: bold;
+}
+
+.wrapper {
+  width: 100%;
+  height: 80%; 
+ display:flex;
+   justify-content: center;
+  align-items: center;  
+  perspective: 800px;
+ 
+}  
+
+
+
+

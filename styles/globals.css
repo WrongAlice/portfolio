@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Smokum&family=Zen+Loop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&display=swap');
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'American Typewriter', serif;
+  
 }
 
 a {
@@ -15,12 +18,42 @@ a {
   box-sizing: border-box;
 }
 
+
+h1 {
+  font-family: 'Zen Loop', cursive;
+  font-size: 3.5rem;
+  margin-top: 0;
+  text-align: center;
+
+
+}
+
+h2 {
+  font-family: 'Grand Hotel', cursive;
+  font-size: 2em;
+  margin-top: 0;
+}
+
+h3 {
+ 
+  font-size: 1.5em;
+  margin-top: 0;
+}
+
+links {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
   body {
-    color: white;
-    background: black;
+    color: rgb(114, 110, 110);
+    background: whitesmoke;
   }
 }
+
