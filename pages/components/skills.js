@@ -1,4 +1,5 @@
 import styles from '../../styles/skills.module.css'
+import node from '../assets/node.png'
 
 const skills = [
     {
@@ -22,9 +23,9 @@ const skills = [
         icon: 'https://img.icons8.com/ios/50/000000/react-native.png'
     },
     {
-        title: 'Node',
+        title: 'Node.JS',
         body: 'Lorem Ipsum dolor sit amet',
-        icon: 'https://img.icons8.com/ios/50/000000/nodejs.png'
+        icon: 'https://img.icons8.com/ios/50/000000/javascript.png'
     },
     {
         title: 'SQL',
