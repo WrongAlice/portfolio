@@ -41,7 +41,8 @@
   
 
   .text {
-    margin-top: 20px;
+    min-height: 10vh;
+    margin-top: 10px;
     margin-bottom: 20px;
     margin-left: 25px;
     margin-right: 25px;
@@ -51,6 +52,7 @@
 
   .footer {
     font-size: .5em;
+    
   }
 
   
