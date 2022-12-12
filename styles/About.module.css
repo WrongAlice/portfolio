@@ -14,7 +14,7 @@
     display: flex;
     justify-content: center;
     margin-top: 20px;
-    margin-bottom: 20px;
+ 
   }
   
   .nav{
@@ -24,15 +24,15 @@
     color: rgb(174, 136, 168);
     text-decoration: none;
     border-radius: 5px;
-    margin: 10px;
+    margin: 20px;
    
   }
 
   .title {
-    margin-top: 75px;
+    margin-top: 95px;
     display: flex;
     flex: 1;
-    padding: 2rem 0;
+    padding: 1rem 0;
     border-bottom: 1px solid lightgrey;
     justify-content: center;
     align-items: center;
