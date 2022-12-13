@@ -4,6 +4,7 @@ import Image from 'next/image'
 import tarot from '../assets/tarot.png'
 import todo from '../assets/to-do.png'
 import bugs from '../assets/bugs.png'
+import rolly from '../assets/rolly.png'
 import styles from '../../styles/card.module.css'
 
 
@@ -30,6 +31,13 @@ const imageCards = [
   image: bugs,
   url: 'https://fe-lilac.vercel.app',
   code: 'https://github.com/WrongAlice/b3fe',
+},
+{
+  title: 'Rollaway',  
+  desc: ' A simple App for a local business, for information on their services and contact info. ',
+  image: rolly,
+  url: 'https://rollawayd.vercel.app',
+  code: 'https://github.com/WrongAlice/b3fe'
 }
 
 ]
