@@ -3,43 +3,43 @@ import node from '../assets/node.png'
 
 const skills = [
     {
-        title: 'JS',
-        body: 'Lorem Ipsum dolor sit amet',
-        icon: 'https://img.icons8.com/ios/50/000000/javascript.png'
-    },
-    {
         title: 'HTML',
-        body: 'Lorem Ipsum dolor sit amet',
+        body: 'The standard markup language for web pages and applications',
         icon: 'https://img.icons8.com/ios/50/000000/html-5.png'
     },
     {
         title: 'CSS',
-        body: 'Lorem Ipsum dolor sit amet',
+        body: 'Standard CSS3, Flexbox, Grid, SASS, AntDesign, Bootstrap, Material UI',
         icon: 'https://img.icons8.com/ios/50/000000/css3.png'
     },
     {
+        title: 'JavaScript',
+        body: 'Vanilla JS, ES6, AJAX, JSON, APIs',
+        icon: 'https://img.icons8.com/ios/50/000000/javascript.png'
+    },
+    {
         title: 'React',
-        body: 'Lorem Ipsum dolor sit amet',
+        body: 'React Hooks, React Router, Redux, Context API, Styled Components, Next.js',
         icon: 'https://img.icons8.com/ios/50/000000/react-native.png'
     },
     {
         title: 'Node.JS',
-        body: 'Lorem Ipsum dolor sit amet',
+        body: 'Express, RESTful APIs, JWT, Bcrypt, PostgreSQL, Knex, Heroku',   
         icon: 'https://img.icons8.com/ios/50/000000/javascript.png'
     },
     {
         title: 'SQL',
-        body: 'Lorem Ipsum dolor sit amet',
+        body: 'PostgreSQL, Knex, SQLite3',
         icon: 'https://img.icons8.com/ios/50/000000/sql.png'
     },
     {
         title: 'Git',
-        body: 'Lorem Ipsum dolor sit amet',
+        body: 'Git, GitHub, Heroku, Vercel, Netlify, CLI, Continuous Integration',
         icon: 'https://img.icons8.com/ios/50/000000/git.png'
     },
     {
         title: 'Testing',
-        body: 'Lorem Ipsum dolor sit amet',
+        body: 'Cypress.io, Jest, Playwright',
         icon: 'https://img.icons8.com/ios/50/000000/test-passed.png'
     },
 ]
