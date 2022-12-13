@@ -18,10 +18,20 @@ href="/"> Home </Link>
 
 </div>
 <div>
-      <h1 className={styles.title}> Hi, I am a full stack web developer </h1>
-      <p className={styles.text}> I know a variety of programming languages, but am most familiar with Vanilla JS</p>
-<p className={styles.text} >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-       <p className={styles.text}> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <h1 className={styles.title}> Who I Am</h1>
+      <p className={styles.text}> I am a flexible and creative coder, but am most familiar with JS based programming at the moment</p>
+<p className={styles.text} > Well, lets see... I started off as a hobby photographer/ artist, and during this time I became familiar with the Adobe creative suite + Graphic Art. 
+However, I found myself wanting to do more. 
+( Like creating entire web-based experiences for businesses. )
+While personal branding is something I am familiar with ( I own a small online vintage resale business ), 
+my most intense passion is for designing websites and apps. This is where I feel the most powerful creativity. I like the idea of making the web a beautful and functional place,
+and tying the business identity into personalized web experiences. Plus, it makes me feel smart to be able to do this.</p>
+       <p className={styles.text}> During the Pandemic, I opted to fulfil a small dream of mine, and leapt into traditional homeschooling my 6 year old daughter. 
+       ( Note: She has recently reintegrated back into the school setting, to encourage flexibility )
+       I tend to look at challenges as valuable opportunites to grow. In my humble opinion: Learning is IT. 
+       I hope to never stop seeing new things, 
+       experimenting, and encouraging others to do the same.
+        </p>
       
       <h3> Check out my skills </h3>
       <Skills/>
