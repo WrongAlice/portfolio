@@ -5,6 +5,7 @@ import tarot from '../assets/tarot.png'
 import todo from '../assets/to-do.png'
 import bugs from '../assets/bugs.png'
 import rolly from '../assets/rolly.png'
+import form from '../assets/form.png'
 import styles from '../../styles/card.module.css'
 
 
@@ -34,10 +35,17 @@ const imageCards = [
 },
 {
   title: 'Rollaway',  
-  desc: ' A simple website for a local business, for information on their services and contact info. ',
+  desc: ' A simple, retro website for a local business, for information on their services and contact info. ',
   image: rolly,
   url: 'https://rollawayd.vercel.app',
   code: 'https://github.com/WrongAlice/b3fe'
+},
+{
+  title: 'Vanilla JS Form Validation',
+  desc: ' A simple, straightforward Validation form that uses vanilla JS to check for valid inputs ',
+  image: form,
+  url: 'https://form-validation-vanjs.vercel.app',
+  code: 'https://github.com/WrongAlice/form-validation-vanjs'
 }
 
 ]
