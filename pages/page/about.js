@@ -28,7 +28,7 @@ my most intense passion is for designing websites and apps. This is where I feel
 and tying the business identity into personalized web experiences. Plus, it makes me feel smart to be able to do this.</p>
        <p className={styles.text}> During the Pandemic, I opted to fulfil a small dream of mine, and leapt into traditional homeschooling my 6 year old daughter. 
        ( Note: She has recently reintegrated back into the school setting, to encourage flexibility )
-       I tend to look at challenges as valuable opportunites to grow. In my humble opinion: Learning is IT. 
+       I tend to look at challenges as valuable opportunites to grow. In my humble opinion: Learning is the most fun. 
        I hope to never stop seeing new things, 
        experimenting, and encouraging others to do the same.
         </p>

@@ -34,7 +34,7 @@ const imageCards = [
 },
 {
   title: 'Rollaway',  
-  desc: ' A simple App for a local business, for information on their services and contact info. ',
+  desc: ' A simple website for a local business, for information on their services and contact info. ',
   image: rolly,
   url: 'https://rollawayd.vercel.app',
   code: 'https://github.com/WrongAlice/b3fe'
