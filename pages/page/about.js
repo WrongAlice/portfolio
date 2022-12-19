@@ -26,11 +26,8 @@ However, I found myself wanting to do more.
 While personal branding is something I am familiar with ( I own a small online vintage resale business ), 
 my most intense passion is for designing websites and apps. This is where I feel the most powerful creativity. I like the idea of making the web a beautful and functional place,
 and tying the business identity into personalized web experiences. Plus, it makes me feel smart to be able to do this.</p>
-       <p className={styles.text}> During the Pandemic, I opted to fulfil a small dream of mine, and leapt into traditional homeschooling my 6 year old daughter. 
-       ( Note: She has recently reintegrated back into the school setting, to encourage flexibility )
-       I tend to look at challenges as valuable opportunites to grow. In my humble opinion: Learning is the most fun. 
-       I hope to never stop seeing new things, 
-       experimenting, and encouraging others to do the same.
+       <p className={styles.text}> I am currently working on a full stack CRUD app, and am looking for a job in the field. 
+       I am also looking to collaborate with other developers on projects.
         </p>
       
       <h3> Check out my skills </h3>
