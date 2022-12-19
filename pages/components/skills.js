@@ -42,6 +42,11 @@ const skills = [
         body: 'Cypress.io, Jest, Playwright',
         icon: 'https://img.icons8.com/ios/50/000000/test-passed.png'
     },
+    {
+        title: 'Shopify, Liquid',
+        body: 'Shopify, Liquid, LiquidJS, Shopify API',
+        icon: 'https://img.icons8.com/ios/50/000000/shopify.png'
+    }
 ]
 
 export default function Home() {
