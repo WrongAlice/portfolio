@@ -48,10 +48,10 @@ const skills = [
         icon: 'https://img.icons8.com/ios/50/000000/shopify.png'
     },
     { 
-        title: 'Google Firebase',
-        body: 'Google Firebase, Firestore, Firebase Auth, Firebase Storage, Firebase Hosting',
-        icon: 'https://img.icons8.com/ios/50/000000/firebase.png'
-    },
+        title: 'Firebase',
+        body: 'Firebase, Firestore, Firebase Auth, Firebase Storage',
+        icon: 'https://img.icons8.com/ios/50/000000/google'
+    }
 ]
 
 export default function Home() {
