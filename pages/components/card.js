@@ -46,7 +46,8 @@ const imageCards = [
   image: form,
   url: 'https://form-validation-vanjs.vercel.app',
   code: 'https://github.com/WrongAlice/form-validation-vanjs'
-}
+},
+
 
 ]
 
