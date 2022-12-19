@@ -46,7 +46,12 @@ const skills = [
         title: 'Shopify, Liquid',
         body: 'Shopify, Liquid, LiquidJS, Shopify API',
         icon: 'https://img.icons8.com/ios/50/000000/shopify.png'
-    }
+    },
+    { 
+        title: 'Google Firebase',
+        body: 'Google Firebase, Firestore, Firebase Auth, Firebase Storage, Firebase Hosting',
+        icon: 'https://img.icons8.com/ios/50/000000/firebase.png'
+    },
 ]
 
 export default function Home() {
